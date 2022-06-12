@@ -1,0 +1,62 @@
+@use '../util/functions.scss' as *;
+@use '../base/fonts.scss' as *;
+@use '../globals/colors.scss' as clr;
+
+html {
+	font-size: rem(15);
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: clr(primary, dark-blue);
+}
+
+.card__content {
+
+	h2 {
+		font-family: 'Inter';
+		font-weight: 700;
+	}
+	
+	p {
+		font-family: 'Lexend Deca';
+		font-weight: 400;
+	}
+}
+
+.stats__values {
+
+	h3 {
+		font-family: 'Inter';
+		font-weight: 700;
+	}
+	
+	p {
+		font-family: 'Lexend Deca';
+		font-weight: 400;
+	}
+}
+
+.attribution { 
+	color: clr(neutral, white);
+
+	font-size: rem(15); 
+	font-family: 'Lexend Deca';
+
+	text-align: center; 
+
+	padding: rem(20);
+
+	a { 
+		color: hsl(228, 45%, 44%); 
+	}
+}

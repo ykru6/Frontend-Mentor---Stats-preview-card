@@ -1,0 +1,16 @@
+$img-cover: rgba(164, 55, 231, 0.6);
+
+$colors: (
+	primary: (
+		dark-blue: hsl(233, 47%, 7%), // main bg
+		dark-desaturated-blue: hsl(244, 38%, 16%), // card bg
+		soft-violet: hsl(277, 64%, 61%), //accent
+	),
+
+	neutral: (
+		white: hsl(0, 0%, 100%), //main heading, stats
+		w-transparent-075: hsla(0, 0%, 100%, 0.75), //main paragraph
+		w-transparent-060: hsla(0, 0%, 100%, 0.6) //stat heading
+	)
+);
+
